@@ -13,7 +13,7 @@ cd app
 # setup the api
 git clone https://github.com/doce-org/api-doce-io.git api.doce.io
 cd api.doce.io/scripts
-./rpi_dev_docker.sh
+sh rpi_dev_docker.sh
 cd
 
 # setup the web app
