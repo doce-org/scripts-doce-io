@@ -22,7 +22,7 @@ setup_doce_web_app() {
 
     echo -n 'Launching web app docker container...'
     cd web.doce.io/scripts
-    chmox +x *
+    chmod +x *
     sh rpi_dev_docker.sh
 
 }
